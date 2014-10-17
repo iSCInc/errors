@@ -1,0 +1,356 @@
+body
+{
+	margin:0;
+	padding:0;
+	font-family: 'Kievit Book', Arial, sans-serif;
+}
+
+
+@font-face {
+  font-family: 'Kievit Regular';
+  src: url(FONTS/KievitWebPro-Book.eot);
+  src: local('Kievit Regular'), url(FONTS/KievitWebPro-Book.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Kievit';
+  src: url(FONTS/KievitWebPro-Medi.eot);
+  src: local('Kievit'), url(FONTS/KievitWebPro-Medi.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Kievit Bold';
+  src: url(FONTS/KievitWebPro-Bold.eot);
+  src: local('Kievit Bold'), url(FONTS/KievitWebPro-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Kievit Book';
+  src: url(FONTS/KievitWebPro-Book.eot);
+  src: local('Kievit Bold'), url(FONTS/KievitWebPro-Book.woff) format('woff');
+}
+
+
+.header
+{
+	width:265px;
+}
+
+.header
+{
+	background:url('images/oe_header.png') no-repeat;
+	height:48px;
+	font-size: 22px;
+	font-family: 'Kievit', Arial, sans-serif;
+	color: #ffffff;
+	text-align: center
+}
+
+.header span
+{
+	position: relative;
+	top:-7px;
+}
+
+.window-bg
+{
+	background:transparent;
+	width:265px;
+	border-top:0;
+	vertical-align: bottom;
+}
+
+.content-wrapper
+{
+	text-align:center;
+}
+
+
+h1,
+input,
+span b
+{
+	/*text-shadow: 0 1px 0px #000;*/
+}
+
+input
+{
+	border: 0;
+	color: #555555;
+	text-align: left;
+	font-size: 19px;
+	font-family: 'Kievit Book', Arial, sans-serif;
+	outline:0;
+	line-height: 44px;
+	overflow: hidden;
+	text-indent: 10px;
+	background: url('images/input-bg.png') no-repeat;
+	height: 44px;
+	width: 255px;
+	margin-bottom:4px;
+}
+
+.focused input
+{
+		background: url('images/input-bg-active.png') no-repeat;
+}
+
+#password
+{
+	font-family: Arial, sans-serif;
+}
+
+.forgot-pass
+{
+	color:#969696;
+	text-decoration:none;
+	font-size:14px;
+	font-family: 'Kievit Book', Arial, sans-serif;
+	background: #fffffe;
+	position: relative;
+	top: -2px;
+}
+
+.log-in,
+.dismiss
+{
+	width: 45%;
+	*width: 46%;
+	height:33px;
+	background-position: 0 0;
+	font-size:16px;
+	font-family: 'Kievit Book', Arial, sans-serif;
+	color:#fff;
+	cursor:pointer;	
+}
+
+.dismiss
+{
+	float:right;
+	margin-right:2%;
+	background: url('images/button-dark.png')  transparent;
+}
+
+
+
+.dismiss
+{
+	background: url('images/button-dark.png')  transparent;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.error
+{
+	display: none;
+}
+
+.error-header
+{
+	background: url('images/error-header.png') no-repeat;
+	height: 9px;
+}
+
+.error-footer
+{
+	background: url('images/error-footer.png') no-repeat transparent;
+	height: 9px;
+}
+
+.error-bg
+{
+	background: url('images/error-bg.png') repeat-y;
+	padding: 0 10px;
+    text-align: center;
+}
+
+#Error_field
+{
+	max-height: 56px;
+	font-size:14px;
+	font-family: 'Kievit Book', Arial, sans-serif;
+	color: #000000;
+	overflow: hidden;
+	line-height: 18px;
+	width: 244px;
+	margin: 0 auto 13px;
+}
+
+.show
+{
+	display:block;
+}
+
+.form-field
+{
+	position: relative;
+}
+
+.form-field label
+{
+	position: absolute;
+	text-align: left;
+	font-size: 19px;
+	line-height: 50px;
+	font-family: 'Kievit Book', Arial, sans-serif;
+	color: #b3b3b3;
+	display: none;
+	cursor: text;
+	left:20px;
+
+
+}
+
+.js-enabled label
+{
+	display: block;
+}
+
+.focused label
+{
+	color: #9fc7fd;
+}
+
+.hide label
+{
+	display: none;
+}
+
+.text-position
+{
+	position:relative;
+	top: 0.14em;
+}
+
+
+/*----------------------------------*/
+
+.av-img {
+	background: url('images/av-image.png') no-repeat scroll transparent;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.pilot .av-img
+{
+	width: 40px;
+	height: 40px;
+	background: none transparent;
+	margin-bottom:10px;
+}
+
+.pilot .av-img img
+{
+	border-radius: 4px;
+}
+
+.pilot .button-holder
+{
+	border-top: 1px solid #d2d2d2;
+}
+
+.img-av {
+	margin: 18px 0 15px; 
+}
+
+.header-img {
+	position: relative;
+	height: 130px;
+	width: 94%;
+	text-align: center;
+}
+
+.error-wrapper {height: 20px;}
+
+#error-field {
+	display: none;
+}
+
+.error-msg {
+	font-size: 14px;
+	color: red;
+	padding-left: 15px;
+	font-family: 'Kievit Book', Arial, sans-serif;
+}
+
+
+#Invite_page {
+	background-color: transparent;
+}
+
+
+.dismiss-close img{
+
+	width:11px;
+	height: 12px;
+	margin-right: 8px;
+}
+
+.dismiss-close
+{
+	float: right;
+}
+
+.login-btn {
+	background: url('images/button-login.png') no-repeat 0px 0px scroll transparent;
+	display: block;
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+    color: #555555;
+    font-size: 19px;
+    font-family: 'Kievit Book',Arial,sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 45px;
+    width: 255px;
+ }
+
+.login-btn:hover {
+	background-position: 0px -46px;
+}
+
+.login-btn:active {
+	background-position: 0px -92px;
+}
+
+.button-holder
+{
+	margin: 0 auto;
+    width: 255px
+}
+
+.footer
+{
+	border-top: 1px solid #d2d2d2;
+	padding: 10px 0 0 0;
+	margin-bottom:0;
+}
+
+form
+{
+	*margin-top:13px;
+}
+
+p {
+	font-family: 'Kievit Book',Arial,sans-serif;
+}
+
+ .profile-pic
+   {
+     width: 70px;
+     margin-top:10px;
+     border: 1px solid #d2d2d2;
+     border-radius: 6px;
+   }
+
+ h1.title.invite
+ {
+ 	margin-top: 5px;
+ }
